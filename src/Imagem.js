@@ -4,6 +4,9 @@ import image1 from './img/imagem1.jpg';
 import image2 from './img/imagem2.png';
 import image3 from './img/imagem3.jpg';
 import image4 from './img/imagem4.jpg';
+import image5 from './img/imagem1.jpg';
+import image6 from './img/imagem2.png';
+
 
 const Imagem = () => {
   const images = [
@@ -11,6 +14,8 @@ const Imagem = () => {
     { src: image2, alt: 'Imagem 2' },
     { src: image3, alt: 'Imagem 3' },
     { src: image4, alt: 'Imagem 4' },
+    { src: image5, alt: 'Imagem 1' },
+    { src: image6, alt: 'Imagem 2' },
   ];
 
   return (
