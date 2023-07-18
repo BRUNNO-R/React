@@ -1,0 +1,17 @@
+commit d31b7c2d36a2b663c424dd37ce5afebc568a7dcc
+Author: BRUNNO-R <brunoramosro@gmail.com>
+Date:   Tue Jul 18 17:30:21 2023 -0300
+
+    adicionado a atividade 04
+
+commit 3815cb570eee456922d554b7cfb02c5c6269e625
+Author: BRUNNO-R <brunoramosro@gmail.com>
+Date:   Tue Jul 18 15:43:37 2023 -0300
+
+    RelatorioAtividade-03
+
+commit a03d148760881e92efec91f429ff7bdf67cdc06c
+Author: BRUNNO-R <brunoramosro@gmail.com>
+Date:   Tue Jul 18 15:37:59 2023 -0300
+
+    Organizando as Pastas
