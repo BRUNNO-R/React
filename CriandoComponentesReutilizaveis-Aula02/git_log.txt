@@ -1,0 +1,11 @@
+commit 30f6fca2fd67ed2482d1e4056608df71d33746f1
+Author: BRUNNO-R <brunoramosro@gmail.com>
+Date:   Sat Jul 15 05:19:09 2023 -0300
+
+    6 cards com preco e nome
+
+commit 7a394d02efe13c07d1043b9b82f441a894f50b6c
+Author: BRUNNO-R <brunoramosro@gmail.com>
+Date:   Sat Jul 15 04:46:59 2023 -0300
+
+    adicionado cards e images
