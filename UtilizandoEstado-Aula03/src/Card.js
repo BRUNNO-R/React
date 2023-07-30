@@ -1,10 +1,10 @@
-// Card.jsx
+//card.js
 import React from 'react';
 
-const Card = ({ image, alt, titulo, preco, onAdicionarAoCarrinho }) => {
+const Card = ({ image, alt, titulo, preco, adicionarAoCarrinho }) => {
   const handleAdicionarAoCarrinho = () => {
     const produto = { image, alt, titulo, preco };
-    onAdicionarAoCarrinho(produto);
+    adicionarAoCarrinho(produto); 
   };
 
   return (

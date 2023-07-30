@@ -6,35 +6,33 @@ class CarrinhoContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      produtos: [],
+      itens: [],
     };
   }
 
-  adicionarProdutoAoCarrinho = (produto) => {
+  adicionarItemAoCarrinho = (item) => {
     this.setState((prevState) => ({
-      produtos: [...prevState.produtos, produto],
+      itens: [...prevState.itens, item],
     }));
   };
 
-  removerProdutoDoCarrinho = (index) => {
+  removerItemDoCarrinho = (index) => {
     this.setState((prevState) => {
-      const newProdutos = [...prevState.produtos];
-      newProdutos.splice(index, 1);
-      return { produtos: newProdutos };
+      const newItens = [...prevState.itens];
+      newItens.splice(index, 1);
+      return { itens: newItens };
     });
   };
 
   render() {
-    const { produtos } = this.state;
+    const { itens } = this.state;
     return (
-        <Carrinho
-          produtos={produtos}
-          onAdicionarProduto={this.adicionarProdutoAoCarrinho}
-          onRemoverProduto={this.removerProdutoDoCarrinho}
-        />
-      );
-      
-    
+      <Carrinho
+        itens={itens}
+        onAdicionarItem={this.adicionarItemAoCarrinho}
+        onRemoverItem={this.removerItemDoCarrinho}
+      />
+    );
   }
 }
 
